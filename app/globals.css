@@ -10,3 +10,93 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
 /* Keep the illustrated phone screen inside its frame at every breakpoint. */
 .payment-phone{height:460px;padding-top:30px;top:20px}.phone-greeting{margin-top:14px;font-size:7px}.payment-phone h3{font-size:23px;line-height:1.08;margin:7px 0 11px}.phone-summary{padding:11px 10px}.phone-summary>div{margin:8px 0;font-size:10px}.phone-summary small{font-size:6px}.phone-services{margin:14px 0}.phone-services svg{width:32px;height:32px;padding:8px}.phone-activity{padding-top:10px}.phone-button{padding:9px 10px;margin-top:10px}.phone-demo{margin-top:7px}.scene-trust{bottom:0}.hero-stage .hero-slide{min-height:254px}@media(max-width:600px){.hero-stage .hero-slide{min-height:232px}}
+/* Readable typography across the corporate website. Illustration microcopy
+   keeps its own scale because it is decorative, not a product interface. */
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.babbar p{font-size:16px;line-height:1.85;color:#526380}
+.babbar h1,.babbar h2,.babbar h3,.babbar h4{font-weight:650}
+.babbar h2{letter-spacing:-1.4px}
+.babbar .about-grid h2,.babbar .about-story h2{font-size:40px;line-height:1.2}
+.babbar .about-grid p,.babbar .purpose p,.babbar .benefits p,.babbar .about-story p,.babbar .story-values p,.babbar .tile-copy p,.babbar .article-copy p,.babbar .detail-features p,.babbar .detail-audience p,.babbar .demo-explanation p,.babbar .faq-list p,.babbar .legal-copy p,.babbar .editorial section p{font-size:16px;line-height:1.85;color:#526380}
+.babbar .section-heading>p{font-size:16px;max-width:390px;color:#526380}
+.babbar .purpose h3,.babbar .benefits h3,.babbar .story-values h3,.babbar .detail-features h3{font-size:23px;line-height:1.4;font-weight:600}
+.babbar .purpose article>span,.babbar .eyebrow,.babbar .tile-number,.babbar .article-copy .eyebrow{font-size:12px;letter-spacing:1.7px;font-weight:650;color:#536ca5}
+.babbar .leadership{gap:12px;flex-wrap:wrap;row-gap:20px}
+.babbar .leadership b{font-size:16px;font-weight:650}
+.babbar .leadership small{font-size:14px;color:#526380}
+.babbar .avatar{font-size:14px;padding:14px;background:#dce5ff}
+.babbar .text-link,.babbar .tile-copy .text-link,.babbar .article-copy .text-link{font-size:15px;font-weight:650}
+.babbar .button{font-size:15px;font-weight:650;line-height:1.4}
+.babbar .nav nav{font-size:14px;gap:21px}
+.babbar .nav-cta{font-size:14px;padding:15px 21px}
+.babbar .dropdown-panel{width:285px}
+.babbar .dropdown-panel a{font-size:14px;line-height:1.5}
+.babbar .topbar{font-size:12px}
+.babbar .hero-stage .eyebrow{font-size:12px;color:#e9efff}
+.babbar .hero-stage .hero-slide>p{font-size:18px;line-height:1.8;color:#e0e7ff;max-width:490px;min-height:100px}
+.babbar .hero-stage h1{font-weight:650;letter-spacing:-3px}
+.babbar .hero-stage .hero-slide{min-height:285px}
+.babbar .hero-stage .hero-proof{font-size:13px;color:#d4defe;flex-wrap:wrap}
+.babbar .hero-pagination>span{font-size:10px;color:#ced9ff;letter-spacing:1px}
+.babbar .hero-pagination button{font-size:11px;width:33px;height:33px}
+.babbar .audience-inner>div{font-size:15px;color:#475a82}
+.babbar .audience-inner>span{font-size:11px;color:#61728d}
+.babbar .ribbon-group span{font-size:12px;letter-spacing:1.8px}
+.babbar .tile-copy h3{font-size:24px;line-height:1.35;min-height:65px}
+.babbar .tile-copy p{min-height:90px}
+.babbar .tile-copy{padding:27px}
+.babbar .tile-chip{font-size:10px}
+.babbar .journey-section .eyebrow{color:#c4d2fa}
+.babbar .journey-steps h3{font-size:22px;line-height:1.4;margin-top:3px}
+.babbar .journey-steps p{font-size:16px;color:#c4d0ee;line-height:1.8}
+.babbar .journey-steps article{padding:23px 0}
+.babbar .journey-steps article:not(:last-child):after{height:calc(100% - 40px);top:63px}
+.babbar .demo-step-copy p{font-size:15px;color:#526380}
+.babbar .demo-step-copy{min-height:155px}
+.babbar .demo-step-copy>span{font-size:11px;color:#596e9e}
+.babbar .demo-node span{font-size:11px;line-height:1.5}
+.babbar .demo-node{width:110px}
+.babbar .demo-window b{font-size:9px;letter-spacing:.6px}
+.babbar .demo-controls>button{font-size:12px;width:34px;height:34px}
+.babbar .demo-controls .demo-next{width:auto;height:auto;font-size:13px}
+.babbar .demo-disclaimer{font-size:12px;line-height:1.7;color:#627699}
+.babbar .journey-section .demo-disclaimer{color:#b5c4e8}
+.babbar .article-copy h3{font-size:24px;line-height:1.4}
+.babbar .contact-grid h2{font-size:43px}
+.babbar .contact-grid>div>p{font-size:17px;color:#52688f;max-width:450px}
+.babbar .contact-item,.babbar .second-phone{font-size:15px;color:#304e83;line-height:1.7}
+.babbar .contact-item small{font-size:11px;font-weight:650;letter-spacing:1.3px;color:#566f99}
+.babbar .contact-grid form h3{font-size:26px;font-weight:650}
+.babbar .contact-grid label{font-size:14px;color:#40577e;font-weight:600}
+.babbar .contact-grid input,.babbar .contact-grid select,.babbar .contact-grid textarea{font-size:16px;line-height:1.5;padding:13px}
+.babbar .form-note,.babbar .scope-note{font-size:13px;line-height:1.75;color:#61718b}
+.babbar .form-status{font-size:15px;color:#37612e}
+.babbar .inner-hero .eyebrow{font-size:12px;color:#536ca5}
+.babbar .inner-hero p{font-size:18px;color:#52688f;line-height:1.8}
+.babbar .breadcrumbs{font-size:13px;color:#62799d}
+.babbar .service-detail aside>a{font-size:15px;color:#52688f;gap:12px}
+.babbar .service-detail aside>a.current{color:#3552ee}
+.babbar .aside-help p{font-size:15px}
+.babbar .aside-help .button{font-size:13px;padding:13px;gap:8px}
+.babbar .detail-intro{font-size:18px;color:#526380}
+.babbar .detail-audience h3{font-size:20px}
+.babbar .team-card h3{font-size:26px}
+.babbar .team-card p{font-size:14px;color:#5c6c89}
+.babbar .team-card .eyebrow{font-size:11px}
+.babbar .faq-list summary{font-size:18px;font-weight:550;line-height:1.55}
+.babbar .page-cta .eyebrow{color:#d8e3ff}
+.babbar .page-cta p{font-size:16px;color:#dae4ff}
+.babbar .editorial-lead{font-size:23px;color:#52688f}
+.babbar .editorial-end{font-size:16px}
+.babbar .editorial section>span{font-size:12px}
+.babbar .footer-top p{font-size:14px;color:#bdc9e5}
+.babbar .footer-top>a:not(.brand){font-size:14px;color:#d4dff7}
+.babbar .footer-directory h4{font-size:16px;font-weight:600}
+.babbar .footer-directory a{font-size:14px;color:#b8c8e9;line-height:1.6}
+.babbar .corporate small{font-size:11px;color:#aabadd;font-weight:600;letter-spacing:1px}
+.babbar .corporate b,.babbar .corporate span{font-size:13px;color:#d1dcf4;line-height:1.7;overflow-wrap:anywhere}
+.babbar .footer-bottom{font-size:12px;color:#adbcda;line-height:1.7;gap:25px}
+@media(max-width:1150px){.babbar .nav nav{gap:14px;font-size:13px}.babbar .nav-cta{font-size:13px;padding:14px 18px}.babbar .nav{gap:18px}.babbar .hero-pagination>span{display:none}.babbar .audience-inner{gap:18px;flex-wrap:wrap;padding-top:25px;padding-bottom:25px}.babbar .tile-copy{padding:24px}.babbar .tile-copy h3{font-size:22px}.babbar .tile-copy p{font-size:15px}.babbar .team-card h3{font-size:23px}}
+@media(max-width:860px){.babbar .nav nav{font-size:16px}.babbar .dropdown-panel a{font-size:15px}.babbar .hero-stage .hero-slide{min-height:265px}.babbar .about-grid h2,.babbar .about-story h2{font-size:36px}.babbar .journey-grid{grid-template-columns:1fr;gap:35px}.babbar .journey-steps p{max-width:none}.babbar .hero-pagination>span{display:inline;font-size:9px}.babbar .contact-grid{grid-template-columns:1fr;gap:40px}.babbar .contact-grid>div>p{max-width:100%}}
+@media(max-width:600px){.babbar .topbar{font-size:10px;gap:15px}.babbar .topbar>span{max-width:230px}.babbar .nav{height:90px;gap:10px}.babbar .nav-cta{font-size:11px;padding:12px 14px}.babbar .nav .brand{font-size:16px}.babbar .nav .brand small{font-size:7px}.babbar .nav nav{top:130px}.babbar .hero-stage h1{letter-spacing:-2.2px;font-size:clamp(42px,10vw,58px)}.babbar .hero-stage .hero-slide>p{font-size:17px;min-height:100px}.babbar .hero-stage .hero-slide{min-height:275px}.babbar .hero-stage .eyebrow{font-size:10px;letter-spacing:1.2px}.babbar .hero-stage .button,.babbar .hero-actions .text-link{font-size:14px}.babbar .hero-stage .hero-proof{font-size:12px;gap:8px}.babbar .hero-actions{gap:18px;flex-wrap:wrap}.babbar .hero-pagination>span{font-size:8px}.babbar .audience-inner>div{font-size:13px;gap:9px}.babbar .about-grid h2,.babbar .about-story h2{font-size:34px}.babbar .eyebrow,.babbar .section-heading .eyebrow,.babbar .inner-hero .eyebrow{font-size:11px;letter-spacing:1.2px}.babbar .tile-copy h3{font-size:24px;min-height:0}.babbar .tile-copy p{font-size:16px;min-height:0}.babbar .tile-copy .text-link,.babbar .article-copy .text-link{font-size:15px}.babbar .section-heading>.button,.babbar .page-cta .button,.babbar .demo-explanation .button,.babbar .faq-page .button{font-size:14px}.babbar .contact-grid h2{font-size:35px}.babbar .contact-grid form{padding:22px}.babbar .contact-item{font-size:14px;gap:10px}.babbar .article-copy h3{font-size:24px}.babbar .team-card{flex-wrap:wrap}.babbar .team-card h3{font-size:25px}.babbar .team-card p{font-size:14px}.babbar .team-avatar{width:100%;height:150px}.babbar .inner-hero p{font-size:17px}.babbar .breadcrumbs{font-size:12px;flex-wrap:wrap}.babbar .demo-screen{padding-left:16px;padding-right:16px}.babbar .demo-node span{font-size:10px}.babbar .demo-window b{font-size:8px}.babbar .demo-nodes{gap:8px}.babbar .demo-step-copy{min-height:165px}.babbar .footer-top{align-items:flex-start}.babbar .footer-top .brand{width:100%}.babbar .footer-top p{width:100%}.babbar .footer-top>a:not(.brand){font-size:14px}.babbar .footer-directory{column-gap:18px}.babbar .footer-directory a{font-size:13px}.babbar .footer-bottom{flex-wrap:wrap;font-size:11px}.babbar .footer-bottom>span:first-child{max-width:none}.babbar .corporate{grid-template-columns:1fr}.babbar .corporate span,.babbar .corporate b{font-size:14px}}
+@media(max-width:1100px) and (min-width:861px){.babbar .nav nav{display:none;position:absolute;top:145px;left:0;right:0;padding:25px 40px;background:#fff;border-bottom:1px solid #e3eafa;z-index:50}.babbar .nav nav.open{display:flex;flex-direction:column;align-items:stretch;gap:20px;font-size:16px}.babbar .menu{display:block;border:0;background:none;color:#3552ee;padding:0}.babbar .nav-cta{margin-left:auto}.babbar .dropdown-panel{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:0;width:auto;padding:10px 0 0 15px}.babbar .dropdown-panel a{font-size:15px}}
