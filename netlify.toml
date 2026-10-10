@@ -5,3 +5,8 @@
 [build.environment]
   NODE_VERSION = "22"
   PNPM_FLAGS = "--shamefully-hoist"
+
+# Explicitly load the Next.js adapter so .next is converted into
+# Netlify routes, static assets, and server functions before deployment.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
