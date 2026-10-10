@@ -4,7 +4,7 @@ Corporate website for Babbar Payment Collection and Solutions Private Limited.
 
 ## Development
 
-Requires Node.js 20.9+ and pnpm.
+Requires Node.js 22 and pnpm 10.34.2 (pinned in package.json).
 
 ```sh
 pnpm install --frozen-lockfile
@@ -35,3 +35,9 @@ The operational address is M.P. Nagar, Bhopal. A complete registered-office addr
 - Other component and asset folders retain resources from the original template.
 
 See LICENSE for the retained template license.
+
+## Netlify Deployment
+
+Import this repository in Netlify and select the `main` branch. Leave the base directory empty (repository root). The committed `netlify.toml` sets the build command to `pnpm run build`, publish directory to `.next`, Node.js to 22, and the hoisting option required for Next.js with pnpm. Netlify applies its Next.js adapter automatically.
+
+After changing these settings, retry the deploy with a cleared build cache. Do not configure `out` or `build` as the publish directory: this project uses the Next.js runtime, including redirects.
