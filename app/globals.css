@@ -139,3 +139,5 @@ body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-seri
 @media(max-width:420px){.babbar .nav-cta{padding:11px;font-size:10px;gap:7px}.babbar .nav .brand{gap:7px;font-size:15px}.babbar .nav .brand small{font-size:6px;letter-spacing:1.2px}.babbar .nav{gap:9px}.babbar .fintech-scene{height:500px}.babbar .leadership{display:grid;grid-template-columns:auto 1fr;max-width:260px;margin-inline:auto;text-align:left}.babbar .leadership .avatar:nth-of-type(3){margin-left:0}}
 @media(max-width:760px){.babbar .hero-stage .hero-slide{min-height:0}}
 @media(max-width:360px){.babbar .nav-cta{display:none}.babbar .menu{margin-left:auto}.babbar .hero-stage h1{font-size:34px}.babbar .hero-proof{column-gap:6px;font-size:11px}}
+
+@media(min-width:761px){.babbar .corporate{grid-template-columns:1.4fr 1fr 1fr}}
